@@ -1,1 +1,19 @@
 /* Put your style information here! */
+body {
+    background-color: lightgray;
+    font-family: 'Piazzolla', serif;
+    font-size: 20px;
+  }
+  img {
+    border-radius: 2px;
+    padding: 0 0px 20px;
+  }
+  h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  b{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  

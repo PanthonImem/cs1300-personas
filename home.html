@@ -1,14 +1,288 @@
 <!doctype html>
 
+<style>
+  .paragraph {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+  }
+  .subparagraph {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 10px;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 0 0px 15px;
+  }
+  .text-nospace {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 0 0px 0px;
+  }
+  .component {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+  }
+}
+</style>
 <html>
   <head>
-    <title>INSERT TITLE HERE!</title>
+    <title> Personas & Storyboading: Steam Iron</title>
     <link rel="stylesheet" href="index.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,400;1,100&display=swap');
+      </style>
     <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
     <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
 
-  <body>
+  <body> 
     <!-- TODO: put your HTML code here! -->
+    <div class = paragraph>
+    <h1 class = text> The UI/UX of Steam Iron </h1> 
+    <i class = text> This webpage is an assignment for my class CSCI1300: UI/UX at Brown University. </i>
+    </div>
+    <div class = paragraph>
+      <text class = text>
+        In UI/UX, personas and story boards are popular choices for tool to understand the user experience of an interface. In this assignment, a student will choose an interface, observe the interaction between 3 users and the interface, then construct 2 personas and a storyboard for one of the personas. 
+      </text>
+
+      <text class = text>
+        Few things in my room is as unique as the steam iron. It’s something every house has, yet I, for one, am not confident about being able to operate it proficiently despite having a solid expectation on how it works. 
+      </text>
+      <text class = text>
+        Thus, for this assignment, I examined the interaction between different people in my household and the good old steam iron sitting in my room and generated 2 personas for users of the steam iron and a story board for one of them.  
+      </text>
+    </div>
+
+    <div class = paragraph>
+      <h2 class = text> Background: What is a Steam Iron? </h2>
+      <text class = text>
+        For those of you who are not familiar with steam irons, a steam iron is a tool for removing wrinkles from clothes using steam and heat. You can think of it as the predecessor of the dryer machine you have at home. 
+      </text>
+
+      <text class = text>
+        Generally, for any steam iron, the four steps to successfully operate it include 
+        <ol>
+          <li> Fill in the water</li>
+          <li> Turn the boiler on. Wait until the water boils</li>
+          <li> Select the heat option depending on the kind of clothes you want to iron</li>
+          <li> Press a button to release the steam as you iron your shirt</li>
+        </ol>
+      </text>
+    </div>
+
+
+    <div class = paragraph>
+      <h2 class = text> Today's Object: Steam Iron</h2>
+      <text class = text>
+        Below is the steam iron we will be examining today.
+      </text>
+
+      <text class = text>
+        The goal of the steam iron is to turn water into steam so users can apply both heat and steam to clothes at the same time. 
+      </text>
+      <div>
+        <img src="images/iron_img.png" width= "500" height= "400">
+        <img src="images/iron_sketch.png" width= "500" height= "400">
+      </div>
+    </div>
+
+
+    <div class = paragraph>
+      <h3 class = text> The Iron's Interface</h3>
+      <text class = text>
+        The main components of its interface is as follow:
+      </text>
+
+      <text class = text>
+        The goal of the steam iron is to turn water into steam so users can apply both heat and steam to clothes at the same time. 
+      </text>
+      
+      <div class = component>
+        <b class = text>1.) Water Tank Lid</b>
+        <img src="images/intf1.png" width= "500" height= "400">
+        <text class = text>
+          One would need to press it down while turning it to remove the lid. This is because hot steam can be very dangerous.
+        </text>
+      </div>
+
+      <div class = component>
+        <b class = text>2.) Control Panel</b>
+        <img src="images/intf2.png" width= "500" height= "400">
+        <text class = text>
+          The control panel contains two on/off buttons. One for the boiler, the other for the iron itself. There is also a knob for controlling the steam pressure and two light panels signalling the status of the iron. 
+        </text>
+      </div>
+
+      <div class = component>
+        <b class = text>3.) Heat Option</b>
+        <img src="images/intf3.png" width= "500" height= "400">
+        <text class = text>
+          This switch can be turned to select heat option depending on the types of clothes being ironed. 
+        </text>
+      </div>
+
+      <div class = component>
+        <b class = text>4.) Release Steam Button</b>
+        <img src="images/intf4.png" width= "500" height= "400">
+        <text class = text>
+          There are two buttons. The first release temporary, short spray steam upon press. The second stays down afer pressing and release continuous spray of steam.
+        </text>
+      </div>
+    </div>
+
+    <div class = paragraph>
+      <h2 class = text> Observation & Interview </h2>
+
+      <div class = subparagraph>
+      <h3> User Demographic </h3>
+      <text class = text>
+        3 users interacted with the iron and were interviewed for this project.
+        <ol>
+          <li> User #1 and #3 are in the 26-30 age group. User #2 is in the 56-60 age group. </li>
+          <li> All users are female.</li>
+        </ol>
+      </text>
+      </div>
+
+      <div class = subparagraph>
+        <h3> Observation</h3>
+        <text class = text>
+          <ol>
+            <li> User #1 and user #3 both struggles to open the lid of the water tank.<br> Both needs to ask other people in the room on how to open the water tank lid.<br> User #2 simply opened it up in one go in less than 5 seconds.  </li>
+            <li> User #1 complained about the wait time for the water to boil, while user#3 simply just started ironing without waiting for the water to boil and was confused why no steam came out and continued ironing without steam nevertheless.<br> User#2 did not make any comment and simply wait until she notices the orange light (Steam Ready) before she began ironing.</li>
+            <li>All users are able to change the heat setting before ironing.  </li>
+            <li>User#1 and user#3 hesitated a lot in between each step, glancing at the different parts of the steam iron.  </li>
+            <li> Both user#1 and user#3 forgot to turn the steam off for the first time they put the iron back on its stand.</li>
+          </ol>
+        </text>
+      </div>
+
+      <div class = subparagraph>
+        <h3> Interview Questions</h3>
+        <div class = subparagraph>
+        <b class = text-nospace> Question 1:</b>
+        <text class = text>
+         On a scale of 1 to 5, how would you rate your familiarity with steamed iron in general?<br> Can you describe your previous experience with other electrical appliances of this sort? 
+        </text>
+
+        <b class = text-nospace>Answer Summary: </b>
+        <text class = text>
+        Both user#1 and user#3 rated themselves 2/5, noting that they had used one or two smaller models of steamed iron in the past. User#2 rated herself at 4/5, noting that she had used numerous irons in her entire life, from the coal-powered ones to this electric one. She didn’t give herself full score because she could be unaware of the newest steam iron models. 
+         </text>
+        </div>
+
+
+        <div class = subparagraph>
+          <b class = text-nospace> Question 2:</b>
+          <text class = text>
+            Can you describe how you feel about this steamed iron, particularly about the interface?
+          </text>
+  
+          <b class = text-nospace>Answer Summary: </b>
+          <text class = text>
+            User#1 and user#3 both noted that they did not expect to wait this long for the water to boil, noting that in their experience with smaller iron models the water boiled almost immediately. User#1 and user#3 also complained that the water tank lid is unintuitive to open. User#3 complained about almost every part of the interface with the exception of heat option while User#1 and user#2, however, agrees that with the exception of the lid the rest of the interface are easily understandable. User#1 and user#3 also noted that this is the largest iron they have ever used. 
+           </text>
+          </div>
+
+
+          <div class = subparagraph>
+            <b class = text-nospace> Question 3:</b>
+            <text class = text>
+              How would you describe your understandings of the interface of this steamed iron?
+            </text>
+    
+            <b class = text-nospace>Answer Summary: </b>
+            <text class = text>
+              User#3 noted that she had a working knowledge of this steam iron, but wouldn’t be able to use every function of it. User#1 said that she understood most things, while user#2 noted that she has been using this iron for 20 years and so she understood everything there is to this iron. 
+             </text>
+            </div>
+      </div>
+      <div class = subparagraph>
+        <h3> Personas</h3>
+        <text class = text>
+          After observing these three users, I created two personas representing two group of users of this steam iron. 
+        </text>
+
+        <div class = subparagraph>
+          <b class = text-nospace> Youngster Olivia</b>
+          <div class = subparagraph>
+            <b class = text-nospace> Description: </b>
+            <text class = text>
+              Youngster Olivia grew up in a home where her mother took care of laundry. When she moved out to live alone, she hired a laundry service to take care of her laundry. However, she still needs to iron her own clothes from time-to-time when she needs a specific shirt of hers to be wrinkle-free. She knows how a steam iron is supposed to work, but nevertheless she has her finger-crossed that she doesn’t accidentally ruin her favorite shirt. 
+             </text>
+             <b class = text-nospace> Problem: </b>
+            <text class = text>
+              Her knowledge about ironing is mostly theoretical, so she spent a lot of time looking at the interface and trying to figure out which button she should press.
+             </text>
+             <b class = text-nospace> Representation </b>
+            <text class = text>
+              This persona represents user#1 and user#3 who don’t usually iron that many clothes although they do possess some knowledge of how a steam iron works.  
+             </text>
+
+             <img src="images/persona_olivia.png" width= "800" height= "600">
+        </div>
+
+        <div class = subparagraph>
+          <b class = text-nospace> Veteran-housewife Bertha</b>
+          <div class = subparagraph>
+            <b class = text-nospace> Description: </b>
+            <text class = text>
+              For 40 years, Veteran-housewife Bertha has been doing all the chores in her house, including laundry. Her battle with an evergrowing pile of dirty laundry never ends, and so she invested in a large sturdy iron that will handle any amount of clothes, and she sticked to her tried-and-true iron. Secretly she hopes that her children will see the importance of being proficient at housework or at least have a working knowledge of how to iron a shirt for when they live on their own. 
+             </text>
+             <b class = text-nospace> Problem: </b>
+            <text class = text>
+              Even her finds it difficult to learn the different steps to using an iron model, so she sticks to one she’s familiar with and hope that it lasts her long enough that she never have to buy a new one. 
+             </text>
+             <b class = text-nospace> Representation </b>
+            <text class = text>
+              This persona represents user#2 who has ironed many, many clothes in her entire life and is very familiar with steam irons.   
+             </text>
+             <img src="images/persona_bertha.png" width= "800" height= "600">
+        </div>
+        <div class = subparagraph>
+          <h3> Storyboard</h3>
+          <text class = text>
+            This story board highlights Youngster Olivia’s mild frustration and confusion with the steam iron.  
+           </text>
+           <img src="images/storyboard.png" width= "800" height= "600">
+        </div>
+      </div>
+      <div class = subparagraph>
+        <h3> Conclusion</h3>
+        <text class = text>
+          This investigation about a steam iron reveals a tradeoff in design for most specialed tool.<br>
+          freely control the tool.<br>
+        </text>
+        <text class = text>
+          For this steam iron, we might assume that it is more catered towards 'serious users' like professional laundry services 
+          or housewives who use them frequently.<br>
+        </text>
+        <text class = text>
+          Nevertheless, there still exists many improvement which could be done to the interface such as 
+          making the water tank lid more intuitive to use, or putting an instruction sticker on the product.
+        </text>
+      </div>
+    </div>
   </body>
 </html>
